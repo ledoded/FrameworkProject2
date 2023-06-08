@@ -9,20 +9,13 @@
 a {
     text-decoration: none;
 }
-ul,
-ol,
-li {
+ul,ol,li {
     list-style: none;
 }
 img {
     vertical-align: top;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1 {
     font-weight: inherit;
     font-size: inherit;
 }
@@ -34,7 +27,7 @@ body {
     position: absolute;
     line-height: 1;
     font-size: 20px;
-    background-color:rgb(255, 255, 255); 
+    background-color:rgb(209, 209, 209); 
     background-size: 100%;
     color: rgb(83, 34, 216);
 }
@@ -250,4 +243,50 @@ body {
 .menu-item:hover {
 	transform-origin: center bottom;
 	transform: rotateX(-90deg) translateY(100%);
+}
+
+.settings {
+    margin: 20px;
+}
+
+.check {
+    margin: 0 0 0 25px;
+}
+
+.text {
+    font-size: 14pt;
+    font-family: monospace;
+}
+
+.figures {
+    width: 320px;
+    height: 30px;
+    font-size: 14pt;
+    font-family: monospace;
+    background: #a1adc700;
+    border: 1px solid #ffffff;
+    margin: 0 0 0 10px;
+}
+
+.color {
+    height: 40px;
+    width: 60px;
+    margin: 0 10px 0 10px;
+}
+
+.light {
+    -webkit-appearance: none;
+    border-radius: 7px;
+    height: 15px;
+    width: 230px;
+    border: 1px solid #ffffff;
+    background: none;
+}
+
+.light::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 25px;
+    width: 20px;
+    background: #ffffff;
+    border-radius: 5px;
 }

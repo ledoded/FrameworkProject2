@@ -1,0 +1,25 @@
+#graph2D {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.showComponent {
+    background-color: transparent;
+    border: 1px solid;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px 32px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#addFunction {
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: 1px solid;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px 32px;
+    border-radius: 2px;
+    transition-duration: 0.3s;
+}
